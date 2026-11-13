@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>古籍扫描整理工具</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="topbar">
+  <h1>古籍扫描整理工具</h1>
+  <nav>
+    <a href="#/books" data-route="#/books">书目</a>
+    <a href="#/pages" data-route="#/pages">页面整理</a>
+    <a href="#/queue" data-route="#/queue">批处理队列</a>
+    <a href="#/proof" data-route="#/proof">校对</a>
+    <a href="#/export" data-route="#/export">导出</a>
+  </nav>
+  <span id="queue-badge" title="队列状态"></span>
+</header>
+<main id="app"></main>
+<script type="module" src="dist/main.js"></script>
+</body>
+</html>
